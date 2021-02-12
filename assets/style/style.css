@@ -1,0 +1,124 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(254, 253, 245);
+}
+nav {
+    margin-top: 10px;
+}
+.right {
+    float: right;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-self: center;
+    
+}
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+}
+nav li {
+    list-style-type: none ;
+    display: block;
+    margin: 0 10px;
+    
+}
+.right > a {
+    align-self: center;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 7px;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.933) , 2px 2px 4px rgb(255, 255, 255) ;
+}
+.right img {
+    width: 25px;
+}
+
+nav ul a, footer a {
+    text-decoration: none;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 7px;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.933) , 2px 2px 4px rgb(255, 255, 255) ;
+}
+a:active, a:focus {
+    text-decoration: none;
+}
+
+.middle {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+}
+.middle > * {
+    text-align: center;
+}
+.middle > img {
+    margin: 0 auto;
+}
+input[type=search] {
+    padding: 15px 20px;
+    width: 50vw;
+    border-radius: 20px;
+    border: none;
+    margin-top: 10px;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.933) , 2px 2px 4px rgb(255, 255, 255) ;
+    padding-left: 40px;
+}
+
+.input {
+    position: relative;
+    color: gray;
+}
+.input i {
+    position: absolute;
+    left: 2%;
+    top: 50%;
+}
+.submitDiv {
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    
+}
+.submitDiv > * {
+    margin: 30px;
+    border: none;
+    padding: 7px 14px;
+    border-radius: 7px;
+    box-shadow: -2px -2px 4px rgba(0, 0, 0, 0.933) , 2px 2px 4px rgb(255, 255, 255) ;
+}
+button, a {
+    transition-duration:500ms ;
+}
+button:hover, a:hover {
+    background-color: rgb(198, 198, 198);
+}
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.country {
+    position: relative;
+}
+.country p {
+    position: absolute;
+    right: 20px;
+}
+.help ul {
+    list-style-type: none;
+}
+.help ul li {
+    display: inline;
+    margin-left:20px;
+}
+.right a:hover {
+    background-color: none;
+}
+
