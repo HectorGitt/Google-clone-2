@@ -2,13 +2,21 @@
 <html>
     <head>
         <title>Google</title>
-        <link rel="stylesheet" type="text/css" href="assets/style/style.css"/>
+        <link rel="stylesheet" type="text/css" href="assets/style/result.css"/>
         <link rel="stylesheet" href="assets/vendor/font-awesome/css/all.min.css">
         
     </head>
     <body>
         <div class="search">   
             <nav>
+                <a href="index.html"><img class="logo" src="assets/img/googlelogo_color_272x92dp.png" alt=""></a>
+                
+                <form > 
+                    <div class="result-input">
+                        <input type="search" name="search"/>
+                        <button class="fa fa-search" type="submit" aria-hidden="true"></i>
+                    </div>                
+                </form>
                 <div class="right"> 
                     <ul>
                         <li><a href="">Gmail</a></li>
@@ -19,36 +27,9 @@
                     <a href=""><img src="assets/img/profile.jpg" alt=""></a>
                 </div>
             </nav>
-            <main class="middle">
             
-                <img id="Logo" src="assets/img/googlelogo_color_272x92dp.png" alt="Google Logo">
-                <form > 
-                    <div class="input">
-                        <input type="search" name="search"/>
-                        <i class="fa fa-search" aria-hidden="true"></i>
-                    </div>
-                    <br/>
-                    <div class="submitDiv">
-                        <button type="submit">Google Search</button>
-                        <button>I'm feeling Lucky</button>
-                    </div>
-                    
-                </form>
-                <div class="arrow"><a href="#result"><i class="fa fa-arrow-circle-down" aria-hidden="true"></i></a></div>            
-            </main>
-            <footer>
-                <div class="country"><p><i class="fa fa-location-arrow" aria-hidden="true"></i> Nigeria</p></div>
-                <div class="help">
-                    <ul>
-                        <li><a href="">About</a></li>
-                        <li><a href="">Advertising</a></li>
-                        <li><a href="">Business</a></li>
-                        <li><a href="">How Search Works</a></li>
-
-                    </ul>
-                </div>
-
-            </footer>
+            
+            
         </div>
         <section class="result" id="result">
                 <div class="content">
@@ -84,6 +65,19 @@
                     </div>
                 </div>
         </section>
+        <footer>
+            <div class="country"><p><i class="fa fa-location-arrow" aria-hidden="true"></i> Nigeria</p></div>
+            <div class="help">
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Advertising</a></li>
+                    <li><a href="">Business</a></li>
+                    <li><a href="">How Search Works</a></li>
+
+                </ul>
+            </div>
+
+        </footer>
     </body>
 
 
